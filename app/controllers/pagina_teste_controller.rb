@@ -1,0 +1,2 @@
+class PaginaTesteController < ApplicationController
+end

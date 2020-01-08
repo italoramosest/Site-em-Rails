@@ -17,11 +17,17 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap', '~> 4.4', '>= 4.4.1'
 gem 'jquery-rails'
+gem 'rails_admin', '~> 2.0'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
+end
+
+group :development do
+  gem "better_errors"
+  gem "binding_of_caller"
 end
 
 group :development do
